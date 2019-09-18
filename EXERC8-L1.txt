@@ -1,0 +1,13 @@
+8) Dois microcontroladores 8051 estão se comunicando através de uma interface padrão RS232 com handshaking via RTS e CTS. No esquema abaixo conectar os fios do cabo de comunicação corretamente e responder aos itens: 
+Qual o valor de TH1 em ambos os micros se a taxa de comunicação é de 19200 bauds? 
+255 (para k = 1) e 253 (para k = 2)
+
+Desenhar o formato do caractere se a transmissão é do tipo 19200,N,8,1 
+Se é tipo 1, vão ser transmitidos 10bits, 1 de start, 1 de stop e 8 de dados, sem paridade
+A distância entre cada bit será de TB = 19200bit/s
+
+Qual o valor de tensão na linha de comunicação quando esta está em repouso? 
+Vdd
+
+Qual o tamanho, em microssegundos, do Start Bit? 
+52us

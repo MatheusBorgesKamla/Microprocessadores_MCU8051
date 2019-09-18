@@ -1,0 +1,7 @@
+	a) (FF - 7F)h = (256 - 127)d = (129)d  ==>  ciclos em TH0
+	
+	129 * 256 = 33024 ciclos no timer 0
+	12MHz/12 = 1MHz é a frequência do temporizador
+	33024/1MHz ~= 33 ms
+
+	b) Antes do timer 0 alcançar seu overflow, P1 terá valor igual aos 8 bits mais significativos da contagem do timer 0, ou seja, começará em 127 e irá até 255. Quando houver overflow no timer 1, P1 irá para 127 e o timer 1 começará a contar. Consequentemente, P2 terá valor igual aos 8 bits mais significativos da contagem do timer 1, ou seja, começará em 127 e terminará em 255, que será o momento anterior ao overflow ao timer 1. Após isso, o ciclo se reiniciará.
