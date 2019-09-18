@@ -1,2 +1,2 @@
 # Microprocessadores_MCU8051
-Repositório utilizado para salvar os projetos e exercício realizados durante a disciplina de Microprocessadores
+Repositório utilizado para salvar os projetos e exercício realizados durante a disciplina de Microprocessadores e Aplicações no ano de 2019 pela minha graduação em Engenharia de Computação pela Universidade de São Paulo (USP). Programa : algorítmos, fluxogramas, linguagem de máquina. Sistemas operacionais em microcomputadores. Comunicação de dados: portas paralelas e seriais. Técnicas de interfaces: utilização de conversores D/A e A/D com microcomputadores, empregando linguagem de máquina. Controle de motores de passo.
